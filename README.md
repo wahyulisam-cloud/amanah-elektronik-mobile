@@ -1,56 +1,64 @@
-# Welcome to your Expo app 👋
+# Amanah Elektronik — Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplikasi mobile pelanggan untuk sistem penyewaan perangkat elektronik Amanah Elektronik.
 
-## Get started
+## Tentang
 
-1. Install dependencies
+Aplikasi ini dirancang untuk pelanggan agar dapat melihat perangkat yang tersedia, melakukan proses penyewaan, melihat detail transaksi, dan mengelola profil melalui perangkat mobile.
 
-   ```bash
-   npm install
-   ```
+## Fitur
 
-2. Start the app
+* Registrasi & Login
+* Home
+* Daftar Alat
+* Detail Alat
+* Checkout Penyewaan
+* Detail Penyewaan
+* Riwayat Penyewaan
+* Profil Pelanggan
 
-   ```bash
-   npx expo start
-   ```
+## Teknologi
 
-In the output, you'll find options to open the app in a
+* React Native
+* Expo
+* TypeScript
+* Expo Router
+* RESTful API
+* Axios
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Tampilan
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Home
 
-## Get a fresh project
+Screenshot akan ditambahkan.
 
-When you're ready, run:
+### Detail Alat
 
-```bash
-npm run reset-project
-```
+Screenshot akan ditambahkan.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Checkout
 
-### Other setup steps
+Screenshot akan ditambahkan.
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### Riwayat Penyewaan
 
-## Learn more
+Screenshot akan ditambahkan.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Backend
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Aplikasi mobile terhubung dengan REST API:
 
-## Join the community
+**Amanah Elektronik API — Laravel**
 
-Join our community of developers creating universal apps.
+## Peran Saya
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* Mengembangkan aplikasi mobile menggunakan React Native.
+* Membuat navigasi dan struktur halaman menggunakan Expo Router.
+* Mengembangkan fitur autentikasi pelanggan.
+* Mengintegrasikan aplikasi dengan REST API.
+* Mengembangkan proses pemilihan alat dan checkout.
+* Mengembangkan halaman riwayat dan profil pelanggan.
+
+## Catatan
+
+Project ini merupakan bagian dari sistem **Amanah Elektronik Rental Management System**.
