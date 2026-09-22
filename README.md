@@ -1,21 +1,27 @@
 # Amanah Elektronik — Mobile App
 
-Aplikasi mobile pelanggan untuk sistem penyewaan perangkat elektronik Amanah Elektronik.
+Aplikasi mobile pelanggan untuk **Amanah Elektronik**, yang digunakan untuk melihat perangkat yang tersedia, melakukan penyewaan, serta memantau transaksi penyewaan.
 
 ## Tentang
 
-Aplikasi ini dirancang untuk pelanggan agar dapat melihat perangkat yang tersedia, melakukan proses penyewaan, melihat detail transaksi, dan mengelola profil melalui perangkat mobile.
+Amanah Elektronik Mobile merupakan aplikasi **customer** yang terintegrasi dengan REST API untuk mendukung proses penyewaan perangkat elektronik secara mobile.
+
+Aplikasi ini dibuat sebagai bagian dari **Amanah Elektronik Rental Management System**, yang terdiri dari backend API, admin web, dan aplikasi mobile pelanggan.
 
 ## Fitur
 
-* Registrasi & Login
-* Home
-* Daftar Alat
-* Detail Alat
-* Checkout Penyewaan
-* Detail Penyewaan
-* Riwayat Penyewaan
-* Profil Pelanggan
+* Register pelanggan
+* Login pelanggan
+* Beranda aplikasi
+* Daftar perangkat elektronik
+* Detail perangkat
+* Checkout penyewaan
+* Konfirmasi penyewaan
+* Riwayat penyewaan
+* Detail penyewaan
+* Profil pelanggan
+* Edit profil
+* Integrasi REST API
 
 ## Teknologi
 
@@ -23,42 +29,82 @@ Aplikasi ini dirancang untuk pelanggan agar dapat melihat perangkat yang tersedi
 * Expo
 * TypeScript
 * Expo Router
-* RESTful API
 * Axios
+* AsyncStorage
+* RESTful API
+* JavaScript / TypeScript
 
 ## Tampilan
 
+### Login
+
+![Login](screenshots/login.png)
+
+### Register
+
+![Register](screenshots/register.png)
+
 ### Home
 
-Screenshot akan ditambahkan.
+![Home](screenshots/home.png)
+
+### Daftar Alat
+
+![Daftar Alat](screenshots/alat.png)
 
 ### Detail Alat
 
-Screenshot akan ditambahkan.
+![Detail Alat](screenshots/detail-alat.png)
 
 ### Checkout
 
-Screenshot akan ditambahkan.
+![Checkout](screenshots/checkout.png)
 
 ### Riwayat Penyewaan
 
-Screenshot akan ditambahkan.
+![Riwayat Penyewaan](screenshots/riwayat.png)
+
+### Detail Penyewaan
+
+![Detail Penyewaan](screenshots/detail-penyewaan.png)
+
+### Profil
+
+![Profil](screenshots/profil.png)
 
 ## Backend
 
-Aplikasi mobile terhubung dengan REST API:
+Aplikasi mobile ini menggunakan REST API dari:
 
 **Amanah Elektronik API — Laravel**
 
+Repository backend:
+
+**amanah-elektronik**
+
+## Repository Terkait
+
+Project Amanah Elektronik terdiri dari tiga repository:
+
+| Repository                   | Teknologi           | Keterangan         |
+| ---------------------------- | ------------------- | ------------------ |
+| **amanah-elektronik**        | Laravel             | Backend & REST API |
+| **amanah-elektronik-admin**  | React.js            | Admin Web          |
+| **amanah-elektronik-mobile** | React Native & Expo | Aplikasi Pelanggan |
+
 ## Peran Saya
 
-* Mengembangkan aplikasi mobile menggunakan React Native.
-* Membuat navigasi dan struktur halaman menggunakan Expo Router.
-* Mengembangkan fitur autentikasi pelanggan.
+* Mengembangkan aplikasi mobile pelanggan menggunakan React Native.
+* Membuat tampilan antarmuka aplikasi.
+* Mengembangkan navigasi menggunakan Expo Router.
 * Mengintegrasikan aplikasi dengan REST API.
-* Mengembangkan proses pemilihan alat dan checkout.
-* Mengembangkan halaman riwayat dan profil pelanggan.
+* Mengimplementasikan autentikasi pelanggan.
+* Mengembangkan alur penyewaan dari pemilihan alat hingga checkout.
+* Mengembangkan halaman riwayat dan detail penyewaan.
+* Mengembangkan fitur profil pelanggan.
 
-## Catatan
+## Status
+
+**Completed — Portfolio Project**
 
 Project ini merupakan bagian dari sistem **Amanah Elektronik Rental Management System**.
